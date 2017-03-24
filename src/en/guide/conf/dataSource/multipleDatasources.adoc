@@ -40,7 +40,6 @@ This configures a single `DataSource` with the Spring bean named `dataSource`. T
 dataSources:
     dataSource:
         pooled: true
-        jmxExport: true
         driverClassName: org.h2.Driver
         username: sa
         password:
